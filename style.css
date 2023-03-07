@@ -1,0 +1,168 @@
+.todo_description{
+    overflow-x:hidden;
+    width: 300px;
+    min-height: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+    position: relative;
+    color: black;
+    left: 33px;
+}
+.todo_empty{
+    width: 300px;
+    min-height: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+    position: relative;
+    color: black;
+    left: 12px;
+    top: 19px;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #change_priority {
+    background-image: url("img/change.png");
+    background-size: 100%;
+    cursor: pointer;
+    position: fixed;
+    margin-left: 288px;
+    top: -18px;
+    width: 43px;
+    height: 43px;
+  }
+.main{
+    position: absolute;
+    border-color: black;
+    border: solid 2px;
+    border-radius: 5px;
+    top: 500px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    min-height: 500px;
+    width: 400px;
+}
+.hight{
+    top: 100px;
+    position: relative;
+    border-color: black;
+    border: solid 2px;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+#hight_input{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    top: 0px;
+    position: absolute;
+}
+#add_hight{
+    background-image: url("img/add.png");
+    background-size: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-left: 335px;
+    top: -80px;
+    width: 40px;
+    height: 40px;
+}
+.del_hight{
+    background-image: url("img/del.png");
+    background-size: 100%;
+    cursor: pointer;
+    position: fixed;
+    margin-left: 336px;
+    top: -15px;
+    width: 27px;
+    height: 27px;
+}
+.check{
+    cursor: pointer;
+    left: 1%;
+    top:5px;
+    background-color: red;
+    position: relative;
+    border-color: black;
+    border: solid 2px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+#new_task {
+    position: relative;
+    margin-top: 20px;
+    border-color: black;
+    border: solid 2px;
+    border-radius: 5px;
+    min-height: 60px;
+    width: 350px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.low{
+    top: 50px;
+    margin-top: 200px;
+    position: relative;
+    border-color: rgb(212, 210, 210);
+    border: solid 2px;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+#inputh,
+#inputl{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    top: 0px;
+    position: absolute;
+}
+#add_low{
+    background-image: url("img/add.png");
+    background-size: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-left: 335px;
+    top: -80px;
+    width: 40px;
+    height: 40px;
+}
+
+#l{ 
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    top: -50px;
+}
+
+input {
+    all: unset;
+  }
